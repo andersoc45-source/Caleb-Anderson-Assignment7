@@ -33,7 +33,7 @@ def main():
     list1 = [1, 2, 3, 4, 5, 6, 7]
     list2 = ["apple", "banana", "kiwi", "grapefruit", "cherry"]
 
-    processed_nums = list_operation(list1)
+    processed_nums = number_operation(list1)
     processed_strings = string_operation(list2)
 
     print("Processed Numbers:", processed_nums)
