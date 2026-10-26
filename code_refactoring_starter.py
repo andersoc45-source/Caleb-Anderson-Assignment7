@@ -1,10 +1,26 @@
 def list_operation(list_of_nums):
+    """
+    Args:
+        list_of_nums (string): A list all in integers.
+
+    Returns:
+        list: The list with even number multiplied by 2
+              and odd numbers muliplied by 3.
+    """
     result = [num * 2 if num % 2 == 0 else num * 3 
         for num in list_of_nums] # If number is even mult by 2 else mult by 3.
     return result
 
 
 def string_operation(list_of_strings):
+    """
+    Args:
+        list_of_strings (list): A list of only strings.
+
+    Returns:
+        string: The conjoined from the list with numbers greater than 5 in uppercase
+                and less than or equal to 5 all in lowerecase.
+    """
     result = " ".join(
         string.upper() if len(string) > 5 else string.lower()
         for string in list_of_strings # Creates a single string where greater than 5 in length
