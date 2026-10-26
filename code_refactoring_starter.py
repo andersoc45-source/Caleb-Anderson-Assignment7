@@ -7,7 +7,8 @@ def list_operation(list_of_nums):
 def string_operation(list_of_strings):
     result = " ".join(
         string.upper() if len(string) > 5 else string.lower()
-        for string in list_of_strings
+        for string in list_of_strings # Creates a single string where greater than 5 in length
+                                      # are in all uppercase else all in lowercase.
     )
     return result
 
