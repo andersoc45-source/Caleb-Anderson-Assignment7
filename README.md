@@ -10,3 +10,4 @@ Processed strings as a single string
 
 Video walkthrough
 
+https://www.youtube.com/watch?v=LCF0GY9LxIA
