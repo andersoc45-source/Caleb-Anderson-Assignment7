@@ -1,5 +1,6 @@
 def list_operation(list_of_nums):
-    result = [num * 2 if num % 2 == 0 else num * 3 for num in list_of_nums] # If number is even mult by 2 else mult by 3.
+    result = [num * 2 if num % 2 == 0 else num * 3 
+        for num in list_of_nums] # If number is even mult by 2 else mult by 3.
     return result
 
 
