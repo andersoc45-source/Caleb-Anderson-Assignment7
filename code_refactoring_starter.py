@@ -1,4 +1,4 @@
-def list_operation(list_of_nums):
+def number_operation(list_of_nums):
     """
     Args:
         list_of_nums (string): A list all in integers.
