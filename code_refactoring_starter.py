@@ -4,13 +4,11 @@ def list_operation(list_of_nums):
 
 
 def string_operation(list_of_strings):
-    x = ""
-    for s in list_of_strings:
-        if len(s) > 5:
-            x += s.upper() + " "
-        else:
-            x += s.lower() + " "
-    return x.strip()
+    result = " ".join(
+        string.upper() if len(string) > 5 else string.lower()
+        for string in list_of_strings
+    )
+    return result
 
 
 def main():
